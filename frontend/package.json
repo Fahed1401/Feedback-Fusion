@@ -1,0 +1,14 @@
+{
+  "name": "feedback-fusion-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free dashboard for tourism-preference clustering using in-browser PCA and k-means.",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "preview": "node dev-server.mjs --dist"
+  },
+  "engines": { "node": ">=18" }
+}

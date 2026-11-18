@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0C1020" />
+  <meta name="description" content="Feedback Fusion transforms tourism preference ratings into interpretable visitor segments with PCA, K-Means and interactive visualizations." />
+  <title>Feedback Fusion · Audience Intelligence</title>
+  <link rel="icon" href="./public/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <div id="app"><div class="loading-screen"><span class="loading-glyph">◈</span><span>Preparing your analytics workspace…</span></div></div>
+  <input id="file-input" type="file" accept=".csv,text/csv" aria-label="Select CSV file" hidden />
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
